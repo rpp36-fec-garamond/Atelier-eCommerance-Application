@@ -47,7 +47,7 @@ class App extends React.Component {
       <div>
         <ProductOverview style={this.state.productStyle} desc={this.state.productDesc}/>
         <RelatedProducts curProductID={this.state.curProductID}/>
-        <QnA curProductID={this.state.curProductID}/>
+        {/* <QnA curProductID={this.state.curProductID}/> */}
         {/* <RnR /> */}
       </div>
     )
