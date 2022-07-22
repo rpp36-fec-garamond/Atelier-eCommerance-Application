@@ -179,6 +179,7 @@ class App extends React.Component {
             style={this.state.productStyle} desc={this.state.productDesc}
             updateOutfitCollection={this.updateOutfitCollection}
             deleteOutfitItem={this.deleteOutfitItem}
+            productDesc={this.state.productDesc}
           />
           {/* <QnA curProductID={this.state.productId}/>
           <RnR reviews={this.state.reviews} reviewsMetadata={this.state.reviewsMetadata} averageReviewScore={this.state.averageReviewScore} /> */}
