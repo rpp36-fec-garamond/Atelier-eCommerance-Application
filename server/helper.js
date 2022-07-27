@@ -1,5 +1,5 @@
 const axios = require('axios');
-const key = require('../config.js');
+// const key = require('../config.js'); // comment out for deployment
 
 // Create authentication headers
 let headers = {
